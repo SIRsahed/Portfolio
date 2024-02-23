@@ -85,6 +85,23 @@ nav .button .icon i{
     padding-left: 70px;
     color: lightblue;
 }
+.type{
+    position: relative;
+}
+.type::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    height: 100%;
+    width: 5px;
+    background-color: lightblue;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
 .ban-text h1::after{
     content: "";
     position: absolute;
