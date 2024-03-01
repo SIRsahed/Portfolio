@@ -15,6 +15,7 @@ body{
     background: #111;
 }
 nav{
+    animation: ami 1.5s;
     position: fixed;
     top: 50%;
     left: 0;
@@ -24,6 +25,15 @@ nav{
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
+    -webkit-animation: ami 1.5s;
+}
+@keyframes ami{
+    0%{
+        margin-left: -50px;
+    }
+    100%{
+        margin-left: 0;
+    }
 }
 nav .button{
     align-items: center;

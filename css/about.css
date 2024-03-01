@@ -15,6 +15,7 @@ body{
     background: #111;
 }
 nav{
+    animation: ami 1.5s;
     position: fixed;
     top: 50%;
     left: 0;
@@ -24,6 +25,15 @@ nav{
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
+    -webkit-animation: ami 1.5s;
+}
+@keyframes ami{
+    0%{
+        margin-left: -50px;
+    }
+    100%{
+        margin-left: 0;
+    }
 }
 nav .button{
     align-items: center;
@@ -383,4 +393,25 @@ nav .button .icon i{
     font-family: Poppins;
     color: #fff;
     opacity: 0.6;
+}
+.backbtn{
+    display: none;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: orange;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.backbtn i{
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
 }
