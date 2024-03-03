@@ -93,25 +93,7 @@ nav .button .icon i{
     margin: 18px 0 10px;
     position: relative;
     padding-left: 70px;
-    color: lightblue;
-}
-.type{
-    position: relative;
     color: #fff;
-}
-.type::after{
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: -5px;
-    height: 100%;
-    width: 5px;
-    background-color: #fff;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
 }
 .ban-text h1::after{
     content: "";
@@ -121,7 +103,7 @@ nav .button .icon i{
     height: 4px;
     width: 50px;
     border-radius: 4px;
-    background: lightblue;
+    background: yellow;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
@@ -131,6 +113,24 @@ nav .button .icon i{
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+}
+.type{
+    position: relative;
+    color: yellow !important;
+}
+.type::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    height: 100%;
+    width: 5px;
+    background-color: yellow;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 .ban-text h2{
     font-family: Poppins;

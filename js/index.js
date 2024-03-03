@@ -21,4 +21,4 @@ function typedJs(){
 }
 setInterval(()=>{
     typedJs()
-},300)
+},200)
